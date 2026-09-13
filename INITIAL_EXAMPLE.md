@@ -1,26 +1,20 @@
 ## FEATURE:
 
-- Pydantic AI agent that has another Pydantic AI agent as a tool.
-- Research Agent for the primary agent and then an email draft Agent for the subagent.
-- CLI to interact with the agent.
-- Gmail for the email draft agent, Brave API for the research agent.
+- Build a fully functional e-commerce web application using Next.js for the frontend and Supabase as the backend service.
+- Framework and Backend: Build a fully functional e-commerce web application using Next.js for the frontend and Supabase as the backend service.
 
 ## EXAMPLES:
 
-In the `examples/` folder, there is a README for you to read to understand what the example is all about and also how to structure your own README when you create documentation for the above feature.
-
-- `examples/cli.py` - use this as a template to create the CLI
-- `examples/agent/` - read through all of the files here to understand best practices for creating Pydantic AI agents that support different providers and LLMs, handling agent dependencies, and adding tools to the agent.
-
-Don't copy any of these examples directly, it is for a different project entirely. But use this as inspiration and for best practices.
+- https://www.amazon.com.au/
+- https://www.lazada.co.th/
 
 ## DOCUMENTATION:
 
-Pydantic AI documentation: https://ai.pydantic.dev/
+- Next.js documentation
 
 ## OTHER CONSIDERATIONS:
 
-- Include a .env.example, README with instructions for setup including how to configure Gmail and Brave.
-- Include the project structure in the README.
-- Virtual environment has already been set up with the necessary dependencies.
-- Use python_dotenv and load_env() for environment variables
+- Next.js Standards: Adhere strictly to Next.js best practice for project structure, routing, and performance optimization.
+- Code Quality: Ensure all code follows clean code principles and aligns with the SOLID design principles to maintain readability, scalability, and maintainability.
+- File Size Management: Avoid bloated files - keep each file under 500 lines of code by applying modular design and separation of concerns.
+- Documentation: Include a comprehensive README.md file with clear instructions on how to install, configure, and run the project locally to ensure smooth onboarding and setup.
